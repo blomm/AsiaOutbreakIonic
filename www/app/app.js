@@ -39,11 +39,60 @@ angular.module('asiaOutbreak',["ionic"])
       }
     })
     .state('app',{
+      abstract:true,
       url:"/app",
       templateUrl:"app/layout/menu-layout.html"
-    });
+    })
+    .state('app.countries',{
+      url:"/countries",
+      views:{
+        'mainContent':{
+          templateUrl:"app/countries/countries.html"
+        }
+      }
+    })
+    .state('app.country-detail',{
+      url:"/countries/:id",
+      views:{
+        'mainContent':{
+          templateUrl:"app/countries/country-detail.html"
+        }
+      }
+    })
+    .state('app.regions',{
+      url:"/regions",
+      views:{
+        'mainContent':{
+          templateUrl:"app/regions/regions.html"
+        }
+      }
+    })
+    .state('app.diseases',{
+      url:"/diseases",
+      views:{
+        'mainContent':{
+          templateUrl:"app/diseases/diseases.html"
+        }
+      }
+    })
+    .state('app.species',{
+      url:"/species",
+      views:{
+        'mainContent':{
+          templateUrl:"app/species/species.html"
+        }
+      }
+    })
+    .state('app.models',{
+      url:"/models",
+      views:{
+        'mainContent':{
+          templateUrl:"app/models/models.html"
+        }
+      }
+    })
 
     //this is the fallback url if none of the above matches
-    $urlRouterProvider.otherwise('/home/outbreaks');
+    $urlRouterProvider.otherwise('/app/countries');
 
  })

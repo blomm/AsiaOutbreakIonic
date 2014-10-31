@@ -5,7 +5,7 @@
 
       </button>
     </ion-nav-bar>
-    <ion-view></ion-view>
+    <ion-nav-view name="mainContent"></ion-nav-view>
 
   </ion-pane>
   <ion-side-menu side="left">
@@ -14,11 +14,12 @@
     </header>
     <ion-content class="has-header">
       <ion-list>
-        <ion-item nav-clear menu-close>Countries</ion-item>
-        <ion-item nav-clear menu-close>Regions</ion-item>
-        <ion-item nav-clear menu-close>Diseases</ion-item>
-        <ion-item nav-clear menu-close>Species</ion-item>
-        <ion-item nav-clear menu-close>Models</ion-item>
+        <ion-item nav-clear menu-close ui-sref="home.outbreaks">Outbreaks</ion-item>
+        <ion-item nav-clear menu-close ui-sref="app.countries">Countries</ion-item>
+        <ion-item nav-clear menu-close ui-sref="app.regions">Regions</ion-item>
+        <ion-item nav-clear menu-close ui-sref="app.diseases">Diseases</ion-item>
+        <ion-item nav-clear menu-close ui-sref="app.species">Species</ion-item>
+        <ion-item nav-clear menu-close ui-sref="app.models">Models</ion-item>
       </ion-list>
     </ion-content>
 

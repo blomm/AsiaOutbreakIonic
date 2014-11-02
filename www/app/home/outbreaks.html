@@ -1,5 +1,9 @@
-<ion-view>
+<ion-view ng-controller='outbreaksCtrl as vm'>
   <ion-content class="has-header">
-    <h1>Outbreaks</h1>
+    <div class="list">
+      <a class="item" ng-repeat='outbreak in vm.outbreaks' >
+        {{outbreak.country + ', ' + outbreak.province + ', ' + outbreak.district}}
+      </a>
+    </div>
   </ion-content>
 </ion-view>

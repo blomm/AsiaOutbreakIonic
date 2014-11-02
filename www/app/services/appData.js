@@ -65,6 +65,7 @@
     return{
       getCountries:getCountries,
       getOutbreaks:getOutbreaks
+
     };
   }
 

@@ -67,6 +67,14 @@ angular.module('asiaOutbreak',["ionic"])
         }
       }
     })
+    .state('app.locations',{
+      url:"/locations",
+      views:{
+        'mainContent':{
+          templateUrl:"app/locations/locations.html"
+        }
+      }
+    })
     .state('app.diseases',{
       url:"/diseases",
       views:{

@@ -1,0 +1,9 @@
+<ion-view ng-controller="locationsCtrl as vm">
+  <ion-content class="has-header">
+    <div class="list">
+      <a class="item" ng-repeat="outbreak in vm.outbreaks">
+        {{outbreak.Shape.type + ' : ' + outbreak.Shape.coordinates}}
+      </a>
+    </div>
+  </ion-content>
+</ion-view>

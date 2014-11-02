@@ -1,8 +1,9 @@
 <ion-view ng-controller='outbreaksCtrl as vm'>
   <ion-content class="has-header">
     <div class="list">
-      <a class="item" ng-repeat='outbreak in vm.outbreaks' >
+      <a class="item item-icon-right" ng-repeat='outbreak in vm.outbreaks' ng-click="vm.selectOutbreak(outbreak.idOriginal)" >
         {{outbreak.country + ', ' + outbreak.province + ', ' + outbreak.district}}
+        <i class="icon ion-chevron-right icon-accessory"></i>
       </a>
     </div>
   </ion-content>

@@ -101,6 +101,6 @@ angular.module('asiaOutbreak',["ionic"])
     })
 
     //this is the fallback url if none of the above matches
-    $urlRouterProvider.otherwise('/home/outbreaks');
+    $urlRouterProvider.otherwise('/app/countries');
 
  })

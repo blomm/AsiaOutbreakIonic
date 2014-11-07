@@ -6,7 +6,7 @@
    var vm = this;
 
     //console.log(appData.getOutbreaks());
-    vm.outbreaks=appData.getOutbreaks();
+    vm.locations=appData.getLocations();
 
   }
 }

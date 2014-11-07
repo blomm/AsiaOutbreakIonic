@@ -2,7 +2,7 @@
   <ion-content class="has-header">
     <!--<h1>Countries</h1>-->
     <div class="list">
-      <a class="item" ng-repeat='country in vm.countries'>
+      <a class="item" ng-repeat='country in vm.countries' ng-click='vm.selectCountry(country.geonameId)'>
         {{country.name}}
       </a>
     </div>

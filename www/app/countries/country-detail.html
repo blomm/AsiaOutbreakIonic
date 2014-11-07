@@ -1,5 +1,24 @@
-<ion-view ng-controller="countryDetailCtrl">
+<ion-view title="{{vm.country.name}}" ng-controller="countryDetailCtrl as vm">
   <ion-content class="has-header">
-    <h1>Country Detail</h1>
+    <div class="list">
+      <a class="item item-icon-right" ng-repeat="outbreak in vm.outbreaks">
+
+        <div class="row">
+          <div class="col">
+            <p>Prov: {{outbreak.province}}</p>
+            <p>Dist: {{outbreak.district}}</p>
+            <p>Subdist: {{outbreak.subdistrict}}</p>
+          </div>
+          <div class="col-40 col-center">
+            <p>{{outbreak.startdate | date: 'M/d/yyyy'}}</p>
+            <p>{{outbreak.specie1}}</p>
+          </div>
+
+
+        </div>
+
+      </a>
+    </div>
+
   </ion-content>
 </ion-view>

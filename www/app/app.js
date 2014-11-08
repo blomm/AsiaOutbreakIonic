@@ -1,4 +1,4 @@
-angular.module('asiaOutbreak',["ionic"])
+angular.module('asiaOutbreak',["ionic", "google-maps"])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -75,6 +75,14 @@ angular.module('asiaOutbreak',["ionic"])
         }
       }
     })
+    .state('app.location-map',{
+      url:"/location-map/:id",
+      views:{
+        'mainContent':{
+          templateUrl:"app/locations/locationMap.html"
+        }
+      }
+    })
     .state('app.diseases',{
       url:"/diseases",
       views:{
@@ -88,6 +96,14 @@ angular.module('asiaOutbreak',["ionic"])
       views:{
         'mainContent':{
           templateUrl:"app/species/species.html"
+        }
+      }
+    })
+    .state('app.species-outbreak-detail',{
+      url:"/species/:name",
+      views:{
+        'mainContent':{
+          templateUrl:"app/species/specieOutbreakDetail.html"
         }
       }
     })

@@ -4,11 +4,12 @@
       <a class="item item-icon-right" ng-repeat='outbreak in vm.outbreaks' ng-click="vm.selectOutbreak(outbreak.idOriginal)" >
         <div class="row">
           <div class="col">
+            <h2 class="positive">{{outbreak.country}}</h2>
             <p>Prov: {{outbreak.province}}</p>
             <p>Dist: {{outbreak.district}}</p>
             <p>Subdist: {{outbreak.subdistrict}}</p>
           </div>
-          <div class="col-40 col-center">
+          <div class="col-20 col-center">
             <p>{{outbreak.startdate | date: 'M/d/yyyy'}}</p>
             <p>{{outbreak.specie1}}</p>
           </div>

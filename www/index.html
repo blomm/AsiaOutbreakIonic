@@ -5,6 +5,8 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <title></title>
 
+
+
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
@@ -15,6 +17,13 @@
     <!-- ionic/angularjs js -->
     <script src="lib/ionic/js/ionic.bundle.js"></script>
 
+
+    <script src='//maps.googleapis.com/maps/api/js?sensor=false'></script>
+
+    <script src="lib/lodash/dist/lodash.js"></script>
+    <script src="http://www.directiv.es/application/html/js/nlaplante/angular-google-maps/angular-google-maps.js"></script>
+    <!--<script src="lib/angular-google-maps/dist/angular-google-maps.js"></script>-->
+
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
 
@@ -24,10 +33,12 @@
     <script src="app/home/outbreaksCtrl.js"></script>
     <script src="app/countries/countriesCtrl.js"></script>
     <script src="app/locations/locationsCtrl.js"></script>
+    <script src="app/locations/locationMapCtrl.js"></script>
     <script src="app/species/specieCtrl.js"></script>
+    <script src="app/species/specieOutbreakDetailCtrl.js"></script>
     <script src="app/services/appData.js"></script>
     <script src="js/controllers.js"></script>
-    <script src="lib/lodash/dist/lodash.js"></script>
+
   </head>
 
   <body ng-app="asiaOutbreak">

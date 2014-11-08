@@ -1,4 +1,4 @@
-angular.module('asiaOutbreak',["ionic", "google-maps"])
+angular.module('asiaOutbreak',["ionic", "google-maps".ns()])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {

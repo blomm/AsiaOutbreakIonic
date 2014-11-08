@@ -2,7 +2,19 @@
   <ion-content class="has-header">
     <div class="list">
       <a class="item item-icon-right" ng-repeat='outbreak in vm.outbreaks' ng-click="vm.selectOutbreak(outbreak.idOriginal)" >
-        {{outbreak.country + ', ' + outbreak.province + ', ' + outbreak.district}}
+        <div class="row">
+          <div class="col">
+            <p>Prov: {{outbreak.province}}</p>
+            <p>Dist: {{outbreak.district}}</p>
+            <p>Subdist: {{outbreak.subdistrict}}</p>
+          </div>
+          <div class="col-40 col-center">
+            <p>{{outbreak.startdate | date: 'M/d/yyyy'}}</p>
+            <p>{{outbreak.specie1}}</p>
+          </div>
+
+
+        </div>
         <i class="icon ion-chevron-right icon-accessory"></i>
       </a>
     </div>

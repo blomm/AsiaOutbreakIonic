@@ -5,9 +5,7 @@
   function locationsCtrl(appData){
    var vm = this;
 
-    //console.log(appData.getOutbreaks());
-    //vm.locations=appData.getLocations();
-    vm.outbreaks = appData.getOutbreaks();
+   vm.outbreaks = _.sortBy(appData.getOutbreaks(),'startDate');
 
   }
 }

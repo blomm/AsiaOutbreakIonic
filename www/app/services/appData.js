@@ -90,10 +90,16 @@
       return outbreaks.map(function(x){return x.Shape});
     }
 
+    function getOutbreak(idOriginal){
+
+      return _.find(outbreaks, {"idOriginal":idOriginal})
+    }
+
     return{
       getCountries:getCountries,
       getOutbreaks:getOutbreaks,
-      getLocations:getLocations
+      getLocations:getLocations,
+      getOutbreak:getOutbreak
 
     };
   }

@@ -1,4 +1,4 @@
-angular.module('asiaOutbreak',["ionic", "google-maps".ns()])
+angular.module('asiaOutbreak',["ionic", "firebase", "uiGmapgoogle-maps"])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -37,6 +37,17 @@ angular.module('asiaOutbreak',["ionic", "google-maps".ns()])
           templateUrl:"app/home/info.html"
         }
       }
+    })
+    .state('login', {
+      url: "/login",
+      templateUrl: "app/login/login.html",
+      controller: 'LoginCtrl'
+    })
+
+    .state('signup', {
+      url: '/signup',
+      templateUrl: 'app/login/signup.html',
+      controller: 'SignupCtrl'
     })
     .state('app',{
       abstract:true,
@@ -117,6 +128,30 @@ angular.module('asiaOutbreak',["ionic", "google-maps".ns()])
     })
 
     //this is the fallback url if none of the above matches
-    $urlRouterProvider.otherwise('/app/countries');
+    $urlRouterProvider.otherwise('/login');
 
  })
+
+
+  .run(function($rootScope, $firebaseSimpleLogin, $state, $window) {
+
+    /*var dataRef = new Firebase("https://ionic-firebase-login.firebaseio.com/");
+    var loginObj = $firebaseSimpleLogin(dataRef);
+
+    loginObj.$getCurrentUser().then(function(user) {
+      if(!user){
+        // Might already be handled by logout event below
+        $state.go('login');
+      }
+    }, function(err) {
+    });*/
+
+    $rootScope.$on('$firebaseSimpleLogin:login', function(e, user) {
+      $state.go('app.countries');
+    });
+
+    $rootScope.$on('$firebaseSimpleLogin:logout', function(e, user) {
+      console.log($state);
+      $state.go('login');
+    });
+  })

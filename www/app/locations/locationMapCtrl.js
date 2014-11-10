@@ -1,21 +1,28 @@
 (function(){
   'use strict';
-  angular.module('asiaOutbreak').controller('locationMapCtrl',['$stateParams', locationMapCtrl]);
+  angular.module('asiaOutbreak').controller('locationMapCtrl',['$stateParams', 'appData', locationMapCtrl]);
 
-  function locationMapCtrl($stateParams){
+  function locationMapCtrl($stateParams, appData){
     var vm = this;
 
-    vm.locationId = Number($stateParams.id);
+    var outbreak = appData.getOutbreak($stateParams.id);
 
     vm.map={
       center:{
-        latitude: 45,
-        longitude: -73
+        latitude: outbreak.Shape.coordinates[1],
+        longitude: outbreak.Shape.coordinates[0]
       },
-      zoom: 12
+      zoom: 15
     };
 
-    vm.marker={}
+    vm.marker={
+      idKey: outbreak.idOriginal,
+      coords: {
+        latitude: outbreak.Shape.coordinates[1],
+        longitude: outbreak.Shape.coordinates[0]
+      }
+
+    }
 
   };
 })();

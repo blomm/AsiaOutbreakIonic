@@ -2,17 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44b7676f-47c0-4774-bcaa-13aba561dea0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/login/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/login/loginCtrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/login/signup.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/app.js" afterPath="$PROJECT_DIR$/www/app/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/services/appData.js" afterPath="$PROJECT_DIR$/www/app/services/appData.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/locations/locationMap.html" afterPath="$PROJECT_DIR$/www/app/locations/locationMap.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/locations/locationMapCtrl.js" afterPath="$PROJECT_DIR$/www/app/locations/locationMapCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/locations/locations.html" afterPath="$PROJECT_DIR$/www/app/locations/locations.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/locations/locationsCtrl.js" afterPath="$PROJECT_DIR$/www/app/locations/locationsCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AsiaOutbreakIonic.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415478548607" ignored="false" />
-    <file path="/app.js" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415468069638" ignored="false" />
+    <file path="/index.html" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415658989667" ignored="false" />
+    <file path="/app.js" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415651103315" ignored="false" />
     <file path="/home.html" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1414784637458" ignored="false" />
-    <file path="/dummy.xml" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415468742093" ignored="false" />
+    <file path="/dummy.xml" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415526837277" ignored="false" />
     <file path="/menu-layout.html" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415460320311" ignored="false" />
     <file path="/outbreaks.html" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415462483332" ignored="false" />
     <file path="/info.html" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1414784428513" ignored="false" />
@@ -23,19 +30,21 @@
     <file path="/regions.html" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1414788991225" ignored="false" />
     <file path="/country-detail.html" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415402420703" ignored="false" />
     <file path="/teamDetailCtrl.js" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1414790620275" ignored="false" />
-    <file path="/appData.js" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415441472639" ignored="false" />
+    <file path="/appData.js" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415523944188" ignored="false" />
     <file path="/countriesCtrl.js" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415394117019" ignored="false" />
     <file path="/outbreaksCtrl.js" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1414959839808" ignored="false" />
-    <file path="/locations.html" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415479079275" ignored="false" />
-    <file path="/locationsCtrl.js" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415468310554" ignored="false" />
+    <file path="/locations.html" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415525378930" ignored="false" />
+    <file path="/locationsCtrl.js" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415525578420" ignored="false" />
     <file path="/Dummy.txt" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415477131525" ignored="false" />
     <file path="/countryDetailCtrl.js" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415401747667" ignored="false" />
     <file path="/specie-Detail.js" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415442862470" ignored="false" />
     <file path="/specieOutbreakDetail.html" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415462394735" ignored="false" />
     <file path="/specieOutbreakDetailCtrl.js" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415463878162" ignored="false" />
     <file path="/style.css" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415467168597" ignored="false" />
-    <file path="/locationMapCtrl.js" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415480818320" ignored="false" />
-    <file path="/locationMap.html" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415467918761" ignored="false" />
+    <file path="/locationMapCtrl.js" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415527460928" ignored="false" />
+    <file path="/locationMap.html" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415527543772" ignored="false" />
+    <file path="/loginCtrl.js" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415658900710" ignored="false" />
+    <file path="/login.html" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415659196659" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,16 +67,7 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="89" selection-start="595" selection-end="595" vertical-scroll-proportion="0.29305914">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="country-detail.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/app/countries/country-detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="27" selection-start="459" selection-end="459" vertical-scroll-proportion="-6.285714">
+            <state line="151" column="80" selection-start="3541" selection-end="3541" vertical-scroll-proportion="0.8303342">
               <folding />
             </state>
           </provider>
@@ -76,28 +76,7 @@
       <file leaf-file-name="locationMapCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/app/locations/locationMapCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="17" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="angular-google-maps.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/lib/angular-google-maps/dist/angular-google-maps.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1254" column="16" selection-start="41081" selection-end="41095" vertical-scroll-proportion="-20.538462">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <marker date="1415142042000" expanded="false" signature="199065:199078" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="70" selection-start="1596" selection-end="1596" vertical-scroll-proportion="-24.0">
+            <state line="18" column="11" selection-start="448" selection-end="453" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,16 +85,65 @@
       <file leaf-file-name="locationMap.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/app/locations/locationMap.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="24" selection-start="212" selection-end="212" vertical-scroll-proportion="-2.2857144">
+            <state line="3" column="71" selection-start="258" selection-end="258" vertical-scroll-proportion="-1.7142857">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="locations.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/app/locations/locations.html">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="28" selection-start="536" selection-end="536" vertical-scroll-proportion="-7.428571">
+            <state line="43" column="12" selection-start="1734" selection-end="1734" vertical-scroll-proportion="-24.571428">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginCtrl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/login/loginCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="122" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/login/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="32" selection-start="789" selection-end="789" vertical-scroll-proportion="-10.857142">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signup.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/login/signup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="11" selection-start="862" selection-end="862" vertical-scroll-proportion="-12.571428">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="specieOutbreakDetail.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/species/specieOutbreakDetail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="63" selection-start="729" selection-end="729" vertical-scroll-proportion="-12.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appData.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/services/appData.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="19" selection-start="1784" selection-end="1794" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -124,25 +152,7 @@
       <file leaf-file-name="locationsCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/app/locations/locationsCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="6" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="countries.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/app/countries/countries.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="species.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/app/species/species.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="-0.0">
+            <state line="12" column="74" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -166,29 +176,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/www/app/species/specie-Detail.js" />
-        <option value="$PROJECT_DIR$/www/app/species/specieCtrl.js" />
-        <option value="$PROJECT_DIR$/www/app/countries/country-detail.html" />
-        <option value="$PROJECT_DIR$/www/app/countries/countries.html" />
         <option value="$PROJECT_DIR$/www/app/species/species.html" />
         <option value="$PROJECT_DIR$/www/app/layout/menu-layout.html" />
         <option value="$PROJECT_DIR$/www/app/species/specieOutbreakDetail.html" />
         <option value="$PROJECT_DIR$/www/app/home/outbreaks.html" />
         <option value="$PROJECT_DIR$/www/app/species/specieOutbreakDetailCtrl.js" />
         <option value="$PROJECT_DIR$/www/css/style.css" />
-        <option value="$PROJECT_DIR$/www/app/locations/locationsCtrl.js" />
+        <option value="$PROJECT_DIR$/www/app/services/appData.js" />
         <option value="$PROJECT_DIR$/www/app/locations/locations.html" />
-        <option value="$PROJECT_DIR$/www/app/locations/locationMap.html" />
+        <option value="$PROJECT_DIR$/www/app/locations/locationsCtrl.js" />
         <option value="$PROJECT_DIR$/www/app/locations/locationMapCtrl.js" />
+        <option value="$PROJECT_DIR$/www/app/locations/locationMap.html" />
+        <option value="$PROJECT_DIR$/www/app/login/signup.html" />
+        <option value="$PROJECT_DIR$/www/app/login/loginCtrl.js" />
         <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/app/login/login.html" />
         <option value="$PROJECT_DIR$/www/app/app.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="6" />
-    <option name="y" value="122" />
-    <option name="width" value="1900" />
+    <option name="x" value="21" />
+    <option name="y" value="54" />
+    <option name="width" value="1750" />
     <option name="height" value="924" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -263,200 +273,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsiaOutbreakIonic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsiaOutbreakIonic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-google-maps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsiaOutbreakIonic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsiaOutbreakIonic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-google-maps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsiaOutbreakIonic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsiaOutbreakIonic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-google-maps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="directives" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsiaOutbreakIonic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsiaOutbreakIonic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-google-maps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="directives" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsiaOutbreakIonic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsiaOutbreakIonic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-google-maps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsiaOutbreakIonic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsiaOutbreakIonic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-google-maps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsiaOutbreakIonic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsiaOutbreakIonic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -479,51 +295,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="species" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsiaOutbreakIonic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsiaOutbreakIonic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="locations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsiaOutbreakIonic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AsiaOutbreakIonic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="countries" />
+              <option name="myItemId" value="login" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -549,6 +321,13 @@
       <option name="filePath" />
       <option name="scope" value="ALL" />
       <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -580,13 +359,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="122" width="1900" height="924" extended-state="0" />
+    <frame x="21" y="54" width="1750" height="924" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2056473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22350897" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -662,69 +441,13 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/app/species/specieOutbreakDetailCtrl.js">
+    <entry file="file://$PROJECT_DIR$/www/lib/angular-google-maps/dist/angular-google-maps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="74" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="10" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/countries/countriesCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/services/appData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="1784" selection-end="1794" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/lib/angular-google-maps/dist/angular-google-maps.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/species/species.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/lib/ionic/js/ionic.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="1254" column="16" selection-start="41081" selection-end="41095" vertical-scroll-proportion="-578.7692">
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <marker date="1415142042000" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/countries/countries.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/locations/locationsCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/locations/locations.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="28" selection-start="536" selection-end="536" vertical-scroll-proportion="-7.428571">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -735,40 +458,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/locations/locationMap.html">
+    <entry file="file://$PROJECT_DIR$/www/app/countries/countryDetailCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="24" selection-start="212" selection-end="212" vertical-scroll-proportion="-2.2857144">
+        <state line="17" column="64" selection-start="404" selection-end="449" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
+    <entry file="file://$PROJECT_DIR$/www/app/species/specieOutbreakDetailCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="70" selection-start="1596" selection-end="1596" vertical-scroll-proportion="-24.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/lib/angular-google-maps/dist/angular-google-maps.js">
+    <entry file="file://$PROJECT_DIR$/www/app/home/outbreaks.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1254" column="16" selection-start="41081" selection-end="41095" vertical-scroll-proportion="-20.538462">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1415142042000" expanded="false" signature="199065:199078" placeholder="..." />
-          </folding>
+        <state line="10" column="17" selection-start="268" selection-end="508" vertical-scroll-proportion="-5.714286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/locations/locations.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="22" selection-start="127" selection-end="127" vertical-scroll-proportion="-1.7142857">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/locations/locationsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="74" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/services/appData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="19" selection-start="1784" selection-end="1794" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/locations/locationMapCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="17" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+        <state line="18" column="11" selection-start="448" selection-end="453" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/locations/locationMap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="71" selection-start="258" selection-end="258" vertical-scroll-proportion="-1.7142857">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/species/specieOutbreakDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="63" selection-start="729" selection-end="729" vertical-scroll-proportion="-12.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/login/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="11" selection-start="862" selection-end="862" vertical-scroll-proportion="-12.571428">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="12" selection-start="1734" selection-end="1734" vertical-scroll-proportion="-24.571428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="32" selection-start="789" selection-end="789" vertical-scroll-proportion="-10.857142">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/login/loginCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="122" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="89" selection-start="595" selection-end="595" vertical-scroll-proportion="0.29305914">
+        <state line="151" column="80" selection-start="3541" selection-end="3541" vertical-scroll-proportion="0.8303342">
           <folding />
         </state>
       </provider>

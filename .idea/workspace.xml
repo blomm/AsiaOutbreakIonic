@@ -2,25 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44b7676f-47c0-4774-bcaa-13aba561dea0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/services/authorizationService.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/services/userPrincipalService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/report/new.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/report/report.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/app.js" afterPath="$PROJECT_DIR$/www/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/services/appData.js" afterPath="$PROJECT_DIR$/www/app/services/appData.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/countries/countriesCtrl.js" afterPath="$PROJECT_DIR$/www/app/countries/countriesCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/home/home.html" afterPath="$PROJECT_DIR$/www/app/home/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/login/login.html" afterPath="$PROJECT_DIR$/www/app/login/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/login/loginCtrl.js" afterPath="$PROJECT_DIR$/www/app/login/loginCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/layout/menu-layout.html" afterPath="$PROJECT_DIR$/www/app/layout/menu-layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/home/outbreaks.html" afterPath="$PROJECT_DIR$/www/app/home/outbreaks.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/home/outbreaksCtrl.js" afterPath="$PROJECT_DIR$/www/app/home/outbreaksCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AsiaOutbreakIonic.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1416660668661" ignored="false" />
-    <file path="/app.js" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1416656934145" ignored="false" />
-    <file path="/home.html" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1416136702845" ignored="false" />
+    <file path="/app.js" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1416666724524" ignored="false" />
+    <file path="/home.html" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1416665903907" ignored="false" />
     <file path="/dummy.xml" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1415526837277" ignored="false" />
     <file path="/menu-layout.html" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1416651797411" ignored="false" />
     <file path="/outbreaks.html" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1416062100822" ignored="false" />
@@ -51,6 +44,8 @@
     <file path="/userPrincipalService.js" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1416052208106" ignored="false" />
     <file path="/a.dummy" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1416661578128" ignored="false" />
     <file path="/authorizationService.js" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1416660269714" ignored="false" />
+    <file path="/report.html" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1416667928735" ignored="false" />
+    <file path="/new.html" changelist="44b7676f-47c0-4774-bcaa-13aba561dea0" time="1416668044869" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,16 +68,43 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="40" selection-start="920" selection-end="940" vertical-scroll-proportion="0.0">
+            <state line="58" column="17" selection-start="1539" selection-end="1550" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="outbreaksCtrl.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/app/home/outbreaksCtrl.js">
+      <file leaf-file-name="info.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/home/info.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="4" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
+            <state line="4" column="22" selection-start="92" selection-end="92" vertical-scroll-proportion="-2.2857144">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/report/new.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="59" selection-end="59" vertical-scroll-proportion="-1.1428572">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="report.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/app/report/report.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="77" selection-start="351" selection-end="351" vertical-scroll-proportion="0.22192867">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/home/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="38" selection-start="540" selection-end="540" vertical-scroll-proportion="-10.857142">
               <folding />
             </state>
           </provider>
@@ -106,46 +128,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signup.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/app/login/signup.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/app/login/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="20" selection-start="794" selection-end="794" vertical-scroll-proportion="-10.857142">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="menu-layout.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/app/layout/menu-layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="71" selection-start="1364" selection-end="1364" vertical-scroll-proportion="-16.0">
+            <state line="7" column="0" selection-start="294" selection-end="294" vertical-scroll-proportion="-4.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="authorizationService.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/app/services/authorizationService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="78" selection-start="1092" selection-end="1092" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userPrincipalService.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="userPrincipalService.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/app/services/userPrincipalService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="42" selection-start="207" selection-end="207" vertical-scroll-proportion="0.23715416">
+            <state line="10" column="42" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -178,29 +173,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/www/app/login/signup.html" />
-        <option value="$PROJECT_DIR$/www/app/services/loginService.js" />
         <option value="$PROJECT_DIR$/www/app/services/userPrincipalService.js" />
         <option value="$PROJECT_DIR$/www/app/locations/locations.html" />
         <option value="$PROJECT_DIR$/www/app/species/species.html" />
         <option value="$PROJECT_DIR$/www/app/login/login.html" />
-        <option value="$PROJECT_DIR$/www/app/home/home.html" />
         <option value="$PROJECT_DIR$/www/app/countries/countriesCtrl.js" />
         <option value="$PROJECT_DIR$/www/app/home/outbreaksCtrl.js" />
         <option value="$PROJECT_DIR$/www/app/services/appData.js" />
         <option value="$PROJECT_DIR$/www/app/home/outbreaks.html" />
-        <option value="$PROJECT_DIR$/www/app/layout/menu-layout.html" />
-        <option value="$PROJECT_DIR$/www/app/app.js" />
         <option value="$PROJECT_DIR$/www/app/services/authorizationService.js" />
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/app/login/loginCtrl.js" />
+        <option value="$PROJECT_DIR$/www/app/layout/menu-layout.html" />
+        <option value="$PROJECT_DIR$/www/app/home/home.html" />
+        <option value="$PROJECT_DIR$/www/app/app.js" />
+        <option value="$PROJECT_DIR$/www/app/report/new.html" />
+        <option value="$PROJECT_DIR$/www/app/report/report.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
-    <option name="y" value="427" />
-    <option name="width" value="1559" />
+    <option name="x" value="50" />
+    <option name="y" value="74" />
+    <option name="width" value="1608" />
     <option name="height" value="924" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -298,7 +293,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
+              <option name="myItemId" value="report" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -320,7 +315,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
+              <option name="myItemId" value="home" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -383,14 +378,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="427" width="1559" height="924" extended-state="0" />
+    <frame x="50" y="74" width="1608" height="924" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.308933" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.308933" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2513021" sideWeight="0.691067" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24353312" sideWeight="0.691067" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -467,43 +462,14 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/app/species/species.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="86" selection-start="197" selection-end="197" vertical-scroll-proportion="-1.7142857" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/countries/countries.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="36" selection-start="413" selection-end="413" vertical-scroll-proportion="-5.714286" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/home/info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/app/countries/countriesCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="41" selection-start="304" selection-end="313" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="55" selection-start="68" selection-end="91" vertical-scroll-proportion="-1.1428572">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/app/home/outbreaks.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="65" selection-start="788" selection-end="841" vertical-scroll-proportion="-10.857142">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/layout/menu-layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="71" selection-start="1364" selection-end="1364" vertical-scroll-proportion="-16.0">
           <folding />
         </state>
       </provider>
@@ -525,13 +491,6 @@
     <entry file="file://$PROJECT_DIR$/www/app/login/signup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="40" selection-start="920" selection-end="940" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -566,7 +525,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/services/userPrincipalService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="42" selection-start="207" selection-end="207" vertical-scroll-proportion="0.23715416">
+        <state line="10" column="42" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/layout/menu-layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="294" selection-end="294" vertical-scroll-proportion="-4.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/home/info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="22" selection-start="92" selection-end="92" vertical-scroll-proportion="-2.2857144">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="38" selection-start="540" selection-end="540" vertical-scroll-proportion="-10.857142">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="17" selection-start="1539" selection-end="1550" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/report/new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="59" selection-end="59" vertical-scroll-proportion="-1.1428572">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/report/report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="77" selection-start="351" selection-end="351" vertical-scroll-proportion="0.22192867">
           <folding />
         </state>
       </provider>

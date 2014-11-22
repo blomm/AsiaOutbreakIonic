@@ -22,7 +22,7 @@ angular.module('asiaOutbreak',["ionic", "firebase", "uiGmapgoogle-maps"])
       templateUrl: "app/login/login.html",
       controller: 'LoginCtrl'
     })
-    //the states the are abstract will have resolves set on them, this
+    //the states the are abstract will have resolves set on them, this resolve is passed down to inheriting states
     .state('home',{
       abstract: true,
       url:"/home",
@@ -46,6 +46,19 @@ angular.module('asiaOutbreak',["ionic", "firebase", "uiGmapgoogle-maps"])
         }
       }
     })
+    .state('report',{
+      abstract:true,
+      url:'/report',
+      templateUrl:"app/report/report.html",
+      resolve:{
+        authorize:'authorizationService'
+      }
+    })
+    .state('report.new',{
+      url:'/new',
+      templateUrl:"app/report/new.html"
+    })
+    //the states the are abstract will have resolves set on them, this resolve is passed down to inheriting states
     .state('app',{
       abstract:true,
       url:"/app",

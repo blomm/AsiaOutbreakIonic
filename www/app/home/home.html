@@ -1,6 +1,11 @@
 
 <ion-nav-bar class="bar-balanced">
-  <ion-nav-buttons side="right" ng-show="loginObj.user">
+  <ion-nav-buttons side="left">
+    <button class="button" ui-sref="report.new" >
+      Report
+    </button>
+  </ion-nav-buttons>
+  <ion-nav-buttons side="right">
     <button class="button" ng-click="logout()">
       Logout
     </button>

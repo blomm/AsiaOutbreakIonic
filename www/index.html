@@ -19,11 +19,11 @@
     <script src="lib/ionic/js/ionic.bundle.js"></script>
 
     <!-- Firebase -->
-    <script src="https://cdn.firebase.com/js/client/1.0.21/firebase.js"></script>
+    <script src="https://cdn.firebase.com/js/client/2.0.4/firebase.js"></script>
     <!-- AngularFire -->
-    <script src="https://cdn.firebase.com/libs/angularfire/0.8.2/angularfire.min.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/0.9.0/angularfire.min.js"></script>
     <!--firebase simple auth-->
-    <script src="https://cdn.firebase.com/js/simple-login/1.6.3/firebase-simple-login.js"></script>
+    <!--<script src="https://cdn.firebase.com/js/simple-login/1.6.3/firebase-simple-login.js"></script>-->
 
     <script src='//maps.googleapis.com/maps/api/js?sensor=false'></script>
 
@@ -35,7 +35,10 @@
     <script src="cordova.js"></script>
 
     <!-- your app's js -->
+
     <script src="app/app.js"></script>
+    <script src="app/services/authorizationService.js"></script>
+    <!--<script src="app/services/userPrincipalService.js"></script>-->
     <script src="app/countries/countryDetailCtrl.js"></script>
     <script src="app/home/outbreaksCtrl.js"></script>
     <script src="app/countries/countriesCtrl.js"></script>
@@ -45,11 +48,13 @@
     <script src="app/species/specieCtrl.js"></script>
     <script src="app/species/specieOutbreakDetailCtrl.js"></script>
     <script src="app/services/appData.js"></script>
+
+
     <script src="js/controllers.js"></script>
 
   </head>
 
   <body ng-app="asiaOutbreak">
-    <ion-nav-view></ion-nav-view>
+    <ion-nav-view ng-controller='MainCtrl'></ion-nav-view>
   </body>
 </html>

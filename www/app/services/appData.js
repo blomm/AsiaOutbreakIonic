@@ -1,9 +1,9 @@
 (function(){
   'use strict';
 
-  angular.module('asiaOutbreak').factory('appData',[appDataService])
+  angular.module('asiaOutbreak').factory('appData',['$q', appDataService])
 
-  function appDataService(){
+  function appDataService($q){
 
     //var countries = JSON.parse('[{"id":1,"name":"Vietnam"},{"id":2,"name":"Thailand"},{"id":3,"name":"Malaysia"},{"id":4,"name":"Lao PDR"},{"id":5,"name":"Myanmar"},{"id":6,"name":"Cambodia"},{"id":7,"name":"Philippines"}]');
 
@@ -83,7 +83,18 @@
     }
 
     function getOutbreaks(){
-      return outbreaks;
+
+      var deferred = $q.defer();
+
+      var fmdoutbreakRef = new Firebase("https://asiaoutbreak.firebaseio.com/fmdoutbreaks");
+
+      fmdoutbreakRef.on("value", function(snapshot) {
+        deferred.resolve(snapshot.val());
+      }, function (errorObject) {
+        deferred.resolve("The read failed: " + errorObject.code);
+      });
+
+      return deferred.promise;
     }
 
     function getLocations(){

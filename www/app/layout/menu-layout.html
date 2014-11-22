@@ -5,6 +5,11 @@
       <button menu-toggle="left" class="button button-icon icon ion-navicon">
 
       </button>
+      <ion-nav-buttons side="right" ng-show="loginObj.user">
+        <button class="button" ng-click="logout()">
+          Logout
+        </button>
+      </ion-nav-buttons>
     </ion-nav-bar>
     <!--this is where the page goes when the user makes a selection from the side menu-->
     <ion-nav-view name="mainContent" animation="slide-left-right"></ion-nav-view>
@@ -17,11 +22,11 @@
     <ion-content class="has-header">
       <ion-list>
         <ion-item nav-clear menu-close ui-sref="home.outbreaks">All Outbreaks</ion-item>
-        <ion-item nav-clear menu-close ui-sref="app.countries">Countries</ion-item>
+        <ion-item nav-clear menu-close ui-sref="app.countries">By Country</ion-item>
         <!--<ion-item nav-clear menu-close ui-sref="app.regions">Regions</ion-item>-->
-        <ion-item nav-clear menu-close ui-sref="app.locations">Locations</ion-item>
+        <ion-item nav-clear menu-close ui-sref="app.locations">By Location</ion-item>
         <!--<ion-item nav-clear menu-close ui-sref="app.diseases">Diseases</ion-item>-->
-        <ion-item nav-clear menu-close ui-sref="app.species">Species</ion-item>
+        <ion-item nav-clear menu-close ui-sref="app.species">By Species</ion-item>
         <!--<ion-item nav-clear menu-close ui-sref="app.models">Models</ion-item>-->
       </ion-list>
     </ion-content>

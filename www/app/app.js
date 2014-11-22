@@ -17,10 +17,18 @@ angular.module('asiaOutbreak',["ionic", "firebase", "uiGmapgoogle-maps"])
 .config(function($stateProvider, $urlRouterProvider){
   $stateProvider
 
+    .state('login', {
+      url: "/login",
+      templateUrl: "app/login/login.html",
+      controller: 'LoginCtrl'
+    })
+    //the states the are abstract will have resolves set on them, this
     .state('home',{
       abstract: true,
       url:"/home",
-      templateUrl:"app/home/home.html"
+      templateUrl:"app/home/home.html",
+      resolve:{
+        authorize: 'authorizationService'}
     })
     .state('home.outbreaks',{
       url: "/outbreaks",
@@ -38,25 +46,17 @@ angular.module('asiaOutbreak',["ionic", "firebase", "uiGmapgoogle-maps"])
         }
       }
     })
-    .state('login', {
-      url: "/login",
-      templateUrl: "app/login/login.html",
-      controller: 'LoginCtrl'
-    })
-
-    .state('signup', {
-      url: '/signup',
-      templateUrl: 'app/login/signup.html',
-      controller: 'SignupCtrl'
-    })
     .state('app',{
       abstract:true,
       url:"/app",
-      templateUrl:"app/layout/menu-layout.html"
+      templateUrl:"app/layout/menu-layout.html",
+      resolve:{
+        authorize: 'authorizationService'}
     })
     .state('app.countries',{
       url:"/countries",
       views:{
+        //this will be inserted into the ion-nav-view of the parent state template (app state's menu-layout.html) with the name mainContent
         'mainContent':{
           templateUrl:"app/countries/countries.html"
         }
@@ -133,25 +133,27 @@ angular.module('asiaOutbreak',["ionic", "firebase", "uiGmapgoogle-maps"])
  })
 
 
-  .run(function($rootScope, $firebaseSimpleLogin, $state, $window) {
+  .run(function($rootScope, $state, authorizationService) {
 
-    /*var dataRef = new Firebase("https://ionic-firebase-login.firebaseio.com/");
-    var loginObj = $firebaseSimpleLogin(dataRef);
+    $rootScope.$on('$stateChangeStart', function(event, toState, toStateParams) {
 
-    loginObj.$getCurrentUser().then(function(user) {
-      if(!user){
-        // Might already be handled by logout event below
+      //if we are already going to the login, no need to say it again!
+      if (toState.name != 'login' && !authorizationService.isAuthenticated()) {
         $state.go('login');
-      }
-    }, function(err) {
-    });*/
+      };
+    });
 
-    $rootScope.$on('$firebaseSimpleLogin:login', function(e, user) {
-      $state.go('app.countries');
+    $rootScope.logout = function(){
+      authorizationService.logout();
+      //userPrincipalService.loginObject.$logout();
+    }
+
+    /*$rootScope.$on('$firebaseSimpleLogin:login', function(e, user) {
+      $state.go('home.outbreaks');
     });
 
     $rootScope.$on('$firebaseSimpleLogin:logout', function(e, user) {
       console.log($state);
       $state.go('login');
-    });
+    });*/
   })

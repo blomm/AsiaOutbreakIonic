@@ -1,12 +1,18 @@
+
 <ion-nav-bar class="bar-balanced">
-  <h1 class="title">Livestock Outbreak</h1>
+  <ion-nav-buttons side="right" ng-show="loginObj.user">
+    <button class="button" ng-click="logout()">
+      Logout
+    </button>
+  </ion-nav-buttons>
 </ion-nav-bar>
 
+
 <ion-tabs class="tabs-energized tabs-icon-top">
-  <ion-tab title="Outbreaks" icon="ion-home" href="#/home/outbreaks">
+  <ion-tab title="All Outbreaks" icon="ion-home" href="#/home/outbreaks">
     <ion-nav-view name="tab-outbreaks"></ion-nav-view>
   </ion-tab>
-  <ion-tab title="Info" icon="ion-star" href="#/home/info">
-    <ion-nav-view name="tab-info"></ion-nav-view>
+  <ion-tab title="Details" icon="ion-star" ui-sref="app.countries">
+    <ion-nav-view name="mainContent"></ion-nav-view>
   </ion-tab>
 </ion-tabs>

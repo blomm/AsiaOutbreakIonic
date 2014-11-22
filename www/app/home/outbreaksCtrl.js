@@ -5,7 +5,9 @@
   function outbreaksCtrl(appData, $state){
     var vm = this;
 
-    vm.outbreaks = appData.getOutbreaks();
+    appData.getOutbreaks().then(function(data){
+      vm.outbreaks = data;
+    });
 
     vm.selectOutbreak = function(idOriginal){
       //select correct outbreak

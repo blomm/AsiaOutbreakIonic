@@ -17,9 +17,5 @@
       $state.go('app.country-detail', {id:geonameId});
 
     }
-
   }
-
-}
-
-)();
+})();

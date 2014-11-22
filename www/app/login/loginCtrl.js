@@ -10,26 +10,37 @@
 (function(angular){
   'use strict'
 
-  angular.module('asiaOutbreak').controller('LoginCtrl', function($firebaseSimpleLogin) {
+  angular.module('asiaOutbreak').controller('LoginCtrl', [loginCtrl])
+
+  function loginCtrl() {
 
     var vm = this;
-    vm.loginData = {};
 
-    var dataRef = new Firebase("https://asiaoutbreak.firebaseio.com/");
+    var dataRef = new Firebase('https://asiaoutbreak.firebaseio.com/');
 
-    vm.loginObj = $firebaseSimpleLogin(dataRef);
+    vm.tryLogin=function(){
 
-    vm.tryLogin = function() {
-      vm.loginObj.$login('password',vm.loginData).then(function(user) {
+      // Log me in
+      dataRef.authWithPassword(vm.loginData, function(error, authData) {
+        if (error) {
+          console.log('Login Failed!', error);
+        } else {
+          console.log('Authenticated successfully with payload:', authData);
+        }
+      });
+    }
+
+
+    /*vm.tryLogin = function() {
+      userPrincipalService.loginObject.$login('password',vm.loginData).then(function(user) {
         // The root scope event will trigger and navigate
+        // Success will fire $firebaseSimpleLogin:login
         console.log("Logged in as: ", user.uid);
       }, function(error) {
         // Show a form error here
         console.error('Unable to login', error);
       });
-    };
-  })
-
-
+    };*/
+  };
 
 })(angular);

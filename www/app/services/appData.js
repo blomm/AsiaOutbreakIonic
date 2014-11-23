@@ -84,7 +84,7 @@
     //return the details from Thailand, Cambodia, Laos, Philippines, Myanmar, Vietnam, Malaysia
     function getCountries(){
 
-      var countriesUrl="http://api.geonames.org/searchJSON?country=KH&country=VN&country=MM&country=LA&country=PH&country=TH&country=MY&style=SHORT&featureClass=A&featureCode=PCLI&username=blomster"
+      var countriesUrl="https://api.geonames.org/searchJSON?country=KH&country=VN&country=MM&country=LA&country=PH&country=TH&country=MY&style=SHORT&featureClass=A&featureCode=PCLI&username=blomster"
       var deferred = $q.defer();
       $http.get(countriesUrl).success(function(countryData){
         deferred.resolve(countryData);
@@ -97,7 +97,7 @@
 
     function getGeoNameChild(countryId){
 
-      var url = "http://api.geonames.org/childrenJSON?geonameId=" + countryId + "&username=blomster"
+      var url = "https://api.geonames.org/childrenJSON?geonameId=" + countryId + "&username=blomster"
       var deferred = $q.defer();
       $http.get(url).success(function(countryAdm1Data){
         deferred.resolve(countryAdm1Data);

@@ -7,8 +7,12 @@
 
     var vm = this;
 
-    vm.countries = appData.getCountries();
-    //console.log(vm.countries);
+    appData.getCountries().then(function(results){
+      vm.countries = results.geonames;
+    },function(failed){
+      console.log("Failed to get countries "+ failed);
+    });
+
 
     vm.selectCountry = function(geonameId){
 

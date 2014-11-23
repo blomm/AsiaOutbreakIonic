@@ -7,22 +7,25 @@
 
     var vm = this;
 
+    var outbreaks = appData.getOutbreaks();
 
     vm.geonameId = Number($stateParams.id);
 
-    //console.log(vm.geonameId);
-
-    var countries = appData.getCountries();
-    var outbreaks = appData.getOutbreaks();
-
-    vm.country = _.find(countries, {"geonameId":vm.geonameId})
-
-
-    vm.outbreaks = _.filter(outbreaks, {"country":vm.country.name})
+    //we need to first get the countries,
+    //then find the one country we are interested in,
+    //then filter outbreaks by country
+    appData.getCountries().then(function(countriesResults){
+      vm.countries = countriesResults.geonames;
+      vm.country = _.find(vm.countries, {"geonameId":vm.geonameId});
+      outbreaks.$loaded().then(function(outbreakData){
+        vm.outbreaks = _.filter(outbreaks, {"country":vm.country.name})
+      })
+    },function(error){
+      console.log("Failed to get country info " + error);
+    });
 
     //console.log("country name: " + vm.country.name);
-    console.log(vm.outbreaks);
-
+    //console.log(vm.outbreaks);
 
   };
 })();

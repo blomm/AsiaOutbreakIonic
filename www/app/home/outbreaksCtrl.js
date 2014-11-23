@@ -1,18 +1,22 @@
 ( function(){
   'use strict'
-  angular.module('asiaOutbreak').controller('outbreaksCtrl',['appData','$state',outbreaksCtrl])
+  angular.module('asiaOutbreak').controller('outbreaksCtrl',['appData',outbreaksCtrl])
 
-  function outbreaksCtrl(appData, $state){
+  function outbreaksCtrl(appData){
+
     var vm = this;
 
-    appData.getOutbreaks().then(function(data){
-      vm.outbreaks = data;
-    });
+    vm.outbreaks=appData.getOutbreaks();
 
-    vm.selectOutbreak = function(idOriginal){
+    /*appData.getOutbreaks().then(function(data){
+      vm.outbreaks = data;
+    });*/
+
+    /*vm.selectOutbreak = function(idOriginal){
       //select correct outbreak
       $state.go("app.countries");
-    }
+    }*/
+
 
   }
 })();

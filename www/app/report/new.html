@@ -1,5 +1,35 @@
-<ion-view>
+<ion-view ng-controller='newReportCtrl as vm'>
   <ion-content class="has-header">
-    <h1>Hello new report</h1>
+    <div class="list">
+      <label class="item item-input item-select">
+        <div class="input-label">
+          Country:
+        </div>
+        <select ng-model="vm.countryName" ng-options="country.name for country in vm.countries" ng-change="vm.updateCountry()">
+
+        </select>
+      </label>
+      <label class="item item-input item-select">
+        <div class="input-label">
+          Province:
+        </div>
+        <select ng-model="vm.provinceName" ng-options="province.name for province in vm.provinces" ng-change="vm.updateProvince()">
+
+        </select>
+
+      </label>
+      <label class="item item-input item-select">
+        <div class="input-label">
+          District:
+        </div>
+        <select ng-model="vm.districtName" ng-options="district.name for district in vm.districts" ng-change="vm.updateDistrict()"></select>
+      </label>
+      <label class="item item-input item-select">
+        <div class="input-label">
+          Commune:
+        </div>
+        <select ng-model="vm.communeName" ng-options="commune.name for commune in vm.communes"></select>
+      </label>
+    </div>
   </ion-content>
 </ion-view>
